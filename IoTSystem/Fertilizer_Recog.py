@@ -75,11 +75,11 @@ def detect_custom_labels(project_version_arn, bucket_name, region):
         return None
 
 if __name__ == "__main__":
-    aws_access_key_id = 'AKIA3FLDYBA7DTC6FQ65'
-    aws_secret_access_key = '/GkrAyUuCnKgEI8+iwzA3HcaAfMKELpv0GU6jeOi'
-    bucket_name = "testssdata"
+    aws_access_key_id = 'your aws access key id'
+    aws_secret_access_key = 'your aws secret key'
+    bucket_name = "your s3 bucket name"
     region = "us-east-1"
-    project_version_arn = "arn:aws:rekognition:us-east-1:767397726270:project/firtilizer/version/firtilizer.2024-04-11T21.36.50/1712851610024"
+    project_version_arn = "your aws data model"
 
     try:
         # Display the logo image on the OLED screen

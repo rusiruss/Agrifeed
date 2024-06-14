@@ -77,11 +77,11 @@ def detect_custom_labels(project_version_arn, bucket_name, region):
         return None
 
 if __name__ == "__main__":
-    aws_access_key_id = 'AKIA3FLDYBA7DTC6FQ65'
-    aws_secret_access_key = '/GkrAyUuCnKgEI8+iwzA3HcaAfMKELpv0GU6jeOi'
-    bucket_name = "testssdata"
+    aws_access_key_id = 'your aws access key id'
+    aws_secret_access_key = 'your aws access key'
+    bucket_name = "your aws s3 bucket name"
     region = "us-east-1"
-    project_version_arn = "arn:aws:rekognition:us-east-1:767397726270:project/plant-leaf-disease-detection/version/plant-leaf-disease-detection.2024-04-05T23.53.05/1712341386462"
+    project_version_arn = "your aws data model link"
 
     try:
         logo_image = Image.open('process.png').convert('1')
